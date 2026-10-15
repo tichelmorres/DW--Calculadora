@@ -1,0 +1,32 @@
+<!-- NOME: MICHEL TORRES SOARES -->
+<!-- RA:   26110233 -->
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculadora</title>
+        <link rel="stylesheet" type="text/css" href="./style.css">
+        <script src="main.js" defer></script>
+    </head>
+    <body>
+        <main id="content">
+            <form id="pForm">
+                <div id="fields">
+                    <div id="fLabel">
+                        <label>N1:</label>
+                        <label>N2:</label>
+                    </div>
+                    <div id="fValue">
+                        <input type="number" id="n1-val" name="n1-val" placeholder="Número Real" min="0" step="any" required>
+                        <input type="number" id="n2-val" name="n2-val" placeholder="Número Real" min="0" step="any" required>
+                    </div>
+                </div>
+                <button type="submit" id="submit">Calcular</button>
+            </form>
+            
+            <div id="results"></div>
+        </main>
+    </body>
+</html>
